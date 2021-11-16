@@ -6,13 +6,25 @@
           href="/"
           class="d-flex align-items-center mb-3 link-dark text-decoration-none"
         >
-          <h1>Contact the Publisher</h1>
+          <div class="col">
+            <h5>Explorate</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Partners</a>
+              </li>
+            </ul>
+          </div>
         </a>
-        <div>
-          <p><i></i>mike@runo.com</p>
-          <p><i> </i> +944 450 904 505</p>
-        </div>
-        <p class="copyright">Copyright @ 2022 Lugar Inc.</p>
+        <!--
+          <h3>Contact the Publisher</h3>
+        
+        <ul>
+          <a>mike@runo.com</a>
+          <a>+944 450 904 505</a>
+        </ul>-->
       </div>
 
       <div class="col"></div>
@@ -67,6 +79,14 @@
           </li>
         </ul>
       </div>
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <p>&copy; 2021 | RUNO Publisher Studio</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="link-dark nav-link" href="#">Subscribe Now</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </div>
 </template>
@@ -77,4 +97,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#footer-section p {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #e5e5e5;
+}
+</style>

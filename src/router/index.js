@@ -7,7 +7,7 @@ import EditorsPick from '../pages/EditorsPick.vue'
 
 
 const routes = [
-  { path: '/', name:'Home' , component: Home },
+  { path: '/', name:'Home', component: Home},
   { path: '/about', name:'About', component: About},
   { path: '/article', name:'Article', component: Article},
   { path: '/editors-pick', name:'EditorsPick', component: EditorsPick},
