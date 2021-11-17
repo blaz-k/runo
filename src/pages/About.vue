@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="about-section" class="container">
     <p>
       Seamlessly syndicate cutting-edge architectures rather than collaborative
       collaboration and idea-sharing. Proactively incubate visionary interfaces
@@ -60,17 +60,22 @@ export default {
 </script>
 
 <style>
-p {
+#about-section p {
   font-family: Lora;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 25px;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   /* or 179% */
 
   color: #495057;
 }
-.text2 {
+#about-section .text2 {
   font-family: Lora;
   font-style: normal;
   font-weight: bold;

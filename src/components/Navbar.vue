@@ -52,6 +52,30 @@
             >Editor's Pick</router-link
           >
         </li>
+        <li>
+          <router-link
+            to="/editors-pick"
+            class="nav-item nav-link nav-header"
+            aria-current="page"
+            ><i class="fab fa-twitter"></i
+          ></router-link>
+        </li>
+        <li>
+          <router-link
+            to="/editors-pick"
+            class="nav-item nav-link nav-header"
+            aria-current="page"
+            ><i class="fab fa-facebook"></i
+          ></router-link>
+        </li>
+        <li>
+          <router-link
+            to="/editors-pick"
+            class="nav-item nav-link nav-header"
+            aria-current="page"
+            ><i class="fab fa-pinterest"></i
+          ></router-link>
+        </li>
       </ul>
     </header>
   </div>
