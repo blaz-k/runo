@@ -43,18 +43,12 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from "vuex";
+import { mapGetters } from "vuex";
 
 export default {
   name: "About",
   computed: {
     ...mapGetters(["getCount"]),
-  },
-  methods: {
-    ...mapActions(["fetchCount"]),
-  },
-  created() {
-    this.fetchCount();
   },
 };
 </script>

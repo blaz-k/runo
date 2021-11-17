@@ -44,7 +44,8 @@
             </h5>
             <p class="card-text after">
               Progressively incentivize cooperative systems through technically
-              sound functionalities. The credibly productivate seamless data.
+              sound functionalities. The credibly productivate seamless
+              data.Count: {{ getCount }}
             </p>
           </div>
         </div>
@@ -54,8 +55,13 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: "EditorsPick",
+  computed: {
+    ...mapGetters(["getCount"]),
+  },
 };
 </script>
 

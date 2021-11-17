@@ -12,7 +12,7 @@
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
-              longer. count: {{ this.$store.getters.getCount }}
+              longer. Count: {{ getCount }}
             </p>
           </div>
         </div>
@@ -130,7 +130,8 @@
             <p class="card-text">
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              than the first to show that equal height action.Count:
+              {{ getCount }}
             </p>
           </div>
         </div>
@@ -140,8 +141,13 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: "Article",
+  computed: {
+    ...mapGetters(["getCount"]),
+  },
 };
 </script>
 
