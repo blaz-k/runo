@@ -18,7 +18,7 @@ export default createStore({
             ); // [6]
 
             store.commit("setCount", res.data)
-            console.log(res.data)
+            console.log(res.data.current.humidity)
             
 
         }
