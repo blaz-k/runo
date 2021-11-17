@@ -14,11 +14,11 @@ export default createStore({
         async fetchCount(store){
             //const newNum = 5;
             let res = await axios.get(
-                "api.openweathermap.org/data/2.5/weather?q=london&appid=0c668be6443fc2414eb819d27abd76da"
+                "https://api.openweathermap.org/data/2.5/weather?q=london&appid=0c668be6443fc2414eb819d27abd76da"
             ); // [6]
 
-            store.commit("setCount", res.data)
-            console.log(res.data.current.humidity)
+            store.commit("setCount", res.data.weather[0].main)
+            console.log(res)
             
 
         }

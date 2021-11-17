@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div
       id="carouselExampleSlidesOnly"
       class="carousel slide"

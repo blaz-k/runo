@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <p>
       Seamlessly syndicate cutting-edge architectures rather than collaborative
       collaboration and idea-sharing. Proactively incubate visionary interfaces

@@ -1,6 +1,6 @@
 <template>
   <div>Editors Pick</div>
-  <div id="editorsPick-section">
+  <div id="editorsPick-section" class="container">
     <div class="row">
       <div class="text-white col-lg-4">
         <div class="card">

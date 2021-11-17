@@ -15,7 +15,9 @@ body {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
-
+.container-fluid {
+  max-width: 110%;
+}
 /*--------------------------------------MEDIA--------------------------------------*/
 
 @media only screen and (max-width: 325px) {
