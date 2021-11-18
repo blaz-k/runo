@@ -14,4 +14,4 @@ Tech and concepts that I used:
 - Media queries
 - Vuex
 
-![](public/assets/img/screenshot.png)
+![](src/assets/img/screenshot.png)
