@@ -1,24 +1,17 @@
-# runo
+# Figma Project: Runo website
 
-## Project setup
-```
-npm install
-```
+My third **figma** project.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Link to website: [https://blaz-k.github.io/runo/](https://blaz-k.github.io/runo/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Tech and concepts that I used:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- HTML
+- CSS
+- Figma
+- Bootstrap
+- Flexbox
+- Media queries
+- Vuex
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](public/assets/img/screenshot.png)
