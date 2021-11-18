@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <div
       id="carouselExampleSlidesOnly"
       class="carousel slide"
@@ -23,4 +23,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.carousel {
+  margin-top: -25px;
+  margin-bottom: -24px;
+}
+</style>

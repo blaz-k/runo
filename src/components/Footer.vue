@@ -50,16 +50,11 @@
         <h5>Connections</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Facebook</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Twitter</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">YouTube</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">LinkedIn</a>
+            <a href="#" class="nav-link p-0 text-muted"
+              ><i class="fab fa-twitter fa-2x"></i
+              ><i class="fab fa-facebook fa-2x"> </i
+              ><i class="fab fa-pinterest fa-2x"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -117,5 +112,20 @@ export default {
 
 .second-footer {
   background-color: #343a40;
+}
+
+#footer-section li {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #e5e5e5;
+}
+
+#footer-section i {
+  margin: 5px;
 }
 </style>

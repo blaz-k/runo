@@ -1,27 +1,45 @@
+body {
+  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Spartan", sans-serif;
+}
+
+.container-fluid {
+  max-width: 110%;
+}
+
 /*----------NAVBAR---------*/
+
 .fs-4 {
   font-size: 50px;
   line-height: 22px;
 }
-body {
-  color: #f35b5b;
-}
+
 .nav-header {
   color: #f8f9fa;
 }
+
 #navbar-perso {
-  background-color: #cccccc; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-.container-fluid {
-  max-width: 110%;
-}
+
 /*--------------------------------------MEDIA--------------------------------------*/
 
 @media only screen and (max-width: 325px) {
   #editorsPick-section .card-img-overlay p {
     display: none;
+  }
+
+  #about-section .text2 {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 46px;
+
+    color: #d4a373;
   }
 }

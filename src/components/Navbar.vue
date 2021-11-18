@@ -19,7 +19,7 @@
         <span class="fs-4 nav-header">Runo</span>
       </a>
 
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills nav-right">
         <li>
           <router-link
             to="/"
@@ -87,4 +87,34 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#navbar-perso {
+  margin-top: -25px;
+}
+
+.fs-4 {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #f8f9fa;
+}
+
+.nav-right {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+</style>
