@@ -15,3 +15,16 @@ Tech and concepts that I used:
 - Vuex
 
 ![](src/assets/img/screenshot.png)
+
+## Deployment:
+
+Make sure you have vue.config.js file in root.
+
+Then run these commands:
+
+- npm run build
+- cd dist
+- git init
+- git add -A
+- git commit -m "deploymen to github pages"
+- git push -f git@github.com:blaz-k/runo.git master:gh-pages
