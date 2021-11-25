@@ -14,7 +14,7 @@ Tech and concepts that I used:
 - Media queries
 - Vuex
 
-![](src/assets/img/screenshot.png)
+![](src/assets/img/runo-screen.png)
 
 ## Deployment:
 

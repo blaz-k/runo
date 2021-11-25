@@ -89,7 +89,7 @@ export default {
 
 <style>
 #navbar-perso {
-  margin-top: -25px;
+  margin-top: -35px;
 }
 
 .fs-4 {
